@@ -73,8 +73,10 @@ button{
     background-color:rgb(18 18 20);
 }
 
-@media(max-width:650px){
+@media(max-width:450px){
     .primeiro{
+        display: flex;
+        justify-content: space-evenly;
         width: 400px;
         height:250px;
         padding: 20px;
